@@ -232,7 +232,7 @@ local CreditText = Instance.new("TextLabel")
 CreditText.Size = UDim2.new(1, 0, 0, 18)
 CreditText.Position = UDim2.new(0, 0, 0.555, 0)
 CreditText.BackgroundTransparency = 1
-CreditText.Text = "by Ahkiploit"
+CreditText.Text = "by xaxaploit"
 CreditText.Font = Enum.Font.GothamSemibold
 CreditText.TextSize = 12
 CreditText.TextColor3 = Color3.fromRGB(170, 170, 180)
@@ -348,7 +348,7 @@ task.spawn(function()
         "free look hazir...",
         "skin changer yuklendi...",
         "ac bypass katmanlari aktif...",
-        "ahkiploit imzasi dogrulandi",
+        "xaxaploit imzasi dogrulandi",
         "turkce v3 hazir!",
     }
     for _, txt in ipairs(steps) do
@@ -636,7 +636,7 @@ local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(0, 420, 1, 0)
 Title.Position = UDim2.new(0, 18, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "XAXAUi v3  //  Türkçe Gelişmiş  //  Ahkiploit"
+Title.Text = "XAXAUi v3  //  Türkçe Gelişmiş  //  xaxaploit"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextXAlignment = Enum.TextXAlignment.Left
 Title.Font = Enum.Font.GothamBold
@@ -4394,7 +4394,7 @@ pcall(function()
     end)
 end)
 
-local bypassKey = "Ahkiploit_Authorized_v3"
+local bypassKey = "xaxaploit_Authorized_v3"
 local function CheckBypass()
     local detected = false
     local owner = "bilinmiyor"
@@ -4410,7 +4410,7 @@ local function CheckBypass()
             local marker = ReplicatedStorage:FindFirstChild("XAXA_Bypass_Marker")
             if marker and marker:IsA("StringValue") and marker.Value == bypassKey then
                 detected = true
-                owner = "Ahkiploit"
+                owner = "xaxaploit"
             end
         end)
     end
@@ -4860,4 +4860,4 @@ _G.XAXAUi.Destroy = function()
 end
 
 Log("XAXAUi v3 hazır  //  " .. CFG.MenuKey .. " ile aç/kapa")
-Toast("XAXAUi v3", "Ahkiploit tarafından  //  hazır", 5)
+Toast("XAXAUi v3", "xaxaploit tarafından  //  hazır", 5)
